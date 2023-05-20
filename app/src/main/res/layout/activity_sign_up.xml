@@ -50,7 +50,7 @@
         android:paddingLeft="14dp"/>
 
     <Button
-        android:id="@+id/btn_logIn"
+        android:id="@+id/btn_signUp"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/edt_password"
@@ -62,9 +62,10 @@
         android:textSize="20sp"
         android:textAllCaps="false"/>
     <Button
+        android:id="@+id/btn_logIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_logIn"
+        android:layout_below="@id/btn_signUp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/haveAcc"
