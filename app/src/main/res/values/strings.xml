@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Chaty</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="passwrod">Password</string>
+    <string name="logIn">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="dontAcc">Don\'t have account? Sign up</string>
+    <string name="haveAcc">Have account? Log In</string>
+</resources>
