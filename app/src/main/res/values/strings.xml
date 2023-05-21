@@ -7,4 +7,6 @@
     <string name="signUp">Sign Up</string>
     <string name="dontAcc">Don\'t have account? Sign up</string>
     <string name="haveAcc">Have account? Log In</string>
+    <string name="logout">Log out</string>
+    <string name="messageHint">Type a message</string>
 </resources>
