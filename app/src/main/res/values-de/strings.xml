@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chaty</string>
+    <string name="passwrod">Passwort</string>
+    <string name="logIn">Einloggen</string>
+    <string name="signUp">Anmeldung</string>
+    <string name="dontAcc">Sie haben noch kein Konto? Anmeldung</string>
+    <string name="haveAcc">Ein Konto haben? Einloggen</string>
+    <string name="logout">Ausloggen</string>
+    <string name="messageHint">"Geben Sie eine Nachricht ein "</string>
+    <string name="english">Englisch</string>
+    <string name="croatian">Kroatisch</string>
+    <string name="spanish">Spanisch</string>
+    <string name="german">Deutsch</string>
+</resources>

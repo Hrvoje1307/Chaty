@@ -1,14 +1,21 @@
 package com.example.chaty
 
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
+import java.util.*
+import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
@@ -60,15 +67,78 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
-        if(item.itemId==R.id.logout){
-            //logout code
-            mAuth.signOut()
-            val intent = Intent(this@MainActivity,LogIn::class.java)
-            finish()
-            startActivity(intent)
-            return true
+        when (item.itemId) {
+            R.id.logout->{
+                mAuth.signOut()
+                val intent = Intent(this@MainActivity,LogIn::class.java)
+                finish()
+                startActivity(intent)
+            }
+            R.id.croatian -> {
+                changeLanguage(this, "hr")
+                recreate() // Refresuje se activity za novi jezik
+            }
+            R.id.english -> {
+                changeLanguage(this, "en")
+                recreate() // Refresuje se activity za novi jezik
+            }
+            R.id.spansih -> {
+                changeLanguage(this, "es")
+                recreate() // Refresuje se activity za novi jezik
+            }
+            R.id.german -> {
+                changeLanguage(this, "de")
+                recreate() // Refresuje se activity za novi jezik
+            }
         }
-        return true
+        return super.onOptionsItemSelected(item)
+    }
+
+
+
+    fun changeLanguage(context: Context, language:String) {
+        val locale= Locale(language)
+        Locale.setDefault(locale)
+        val res=context.resources
+        val config= Configuration(res.configuration)
+        config.setLocale(locale)
+        context.createConfigurationContext(config)
+        res.updateConfiguration(config, res.displayMetrics)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Toast.makeText(applicationContext, "onStart", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Toast.makeText(applicationContext, "onResume", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onResume")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Toast.makeText(applicationContext, "onRestart", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onRestart")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Toast.makeText(applicationContext, "onPause", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Toast.makeText(applicationContext, "onStop", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Toast.makeText(applicationContext, "onDestroy", Toast.LENGTH_SHORT).show()
+        Log.i("MyLog", "onDestroy")
     }
 }

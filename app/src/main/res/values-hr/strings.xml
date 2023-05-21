@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Ime</string>
+    <string name="passwrod">Lozinka</string>
+    <string name="logIn">Prijava</string>
+    <string name="signUp">Registracija</string>
+    <string name="dontAcc">Nemaš račun? Registriraj se</string>
+    <string name="haveAcc">Imaš račun? Prijavi se</string>
+    <string name="logout">Odjava</string>
+    <string name="messageHint">Napiši poruku</string>
+    <string name="english">Engleski</string>
+    <string name="croatian">Hrvatski</string>
+    <string name="spanish">Španjolski</string>
+    <string name="german">Njemački</string>
+</resources>

@@ -1,12 +1,16 @@
 <resources>
-    <string name="app_name">Chaty</string>
+    <string name="app_name" translatable="false">Chaty</string>
     <string name="name">Name</string>
-    <string name="email">Email</string>
+    <string name="email" translatable="false">Email</string>
     <string name="passwrod">Password</string>
     <string name="logIn">Log In</string>
     <string name="signUp">Sign Up</string>
-    <string name="dontAcc">Don\'t have account? Sign up</string>
-    <string name="haveAcc">Have account? Log In</string>
+    <string name="dontAcc">Don\'t have an account? Sign up</string>
+    <string name="haveAcc">Have an account? Log In</string>
     <string name="logout">Log out</string>
     <string name="messageHint">Type a message</string>
+    <string name="english">English</string>
+    <string name="croatian">Croatian</string>
+    <string name="spanish">Spanish</string>
+    <string name="german">German</string>
 </resources>

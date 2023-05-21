@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="passwrod">Contraseña</string>
+    <string name="logIn">Acceso</string>
+    <string name="signUp">Inscribirse</string>
+    <string name="dontAcc">¿No tienes una cuenta? Inscribirse</string>
+    <string name="haveAcc">" ¿Tener una cuenta? Acceso"</string>
+    <string name="logout">"Cerrar sesión "</string>
+    <string name="messageHint">"Escriba un mensaje "</string>
+    <string name="english">Inglesa</string>
+    <string name="croatian">Croata</string>
+    <string name="spanish">Española</string>
+    <string name="german">Alemana</string>
+</resources>
