@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907888296960",
+    "project_id": "chaty-beb2f",
+    "storage_bucket": "chaty-beb2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907888296960:android:8bbf115c62e08852f3c4e5",
+        "android_client_info": {
+          "package_name": "com.example.chaty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907888296960-8nv972invb9ej5einf14fkcrbjpgge3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA47d93w604sQnYi-covnLy0TwfyPHSbVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907888296960-8nv972invb9ej5einf14fkcrbjpgge3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
